@@ -5,6 +5,7 @@
    che avvia un setInterval, incrementando un contatore e stampandolo.
 */
 
+/* Definizione funzione */
 function creaContatoreAutomatico(tempo) {
     
     let contatore = 0;
@@ -18,6 +19,6 @@ function creaContatoreAutomatico(tempo) {
     }
 }
 
-/* Funzione */
+/* Chiamata funzione */
 const avviaContatore = creaContatoreAutomatico(2000);
 avviaContatore();
